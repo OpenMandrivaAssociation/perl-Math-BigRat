@@ -14,6 +14,7 @@ Source:         http://www.cpan.org/modules/by-module/Math/%{module}-%{version}.
 # automatic dependency doesn't work here, because perl package
 # provides an unversioned one
 BuildRequires:	perl-Math-BigInt >= 1.87
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Math::BigRat complements Math::BigInt and Math::BigFloat by providing support
