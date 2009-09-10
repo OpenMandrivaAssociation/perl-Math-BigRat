@@ -1,5 +1,5 @@
 %define upstream_name    Math-BigRat
-%define upstream_version 0.22
+%define upstream_version 0.24
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
