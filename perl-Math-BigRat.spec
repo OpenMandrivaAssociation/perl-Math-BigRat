@@ -1,13 +1,14 @@
 %define debug_package %{nil}
 
 %define upstream_name    Math-BigRat
-%define upstream_version 0.2602
+%define upstream_version 0.2606
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Arbitrary big rational numbers
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
@@ -41,4 +42,5 @@ make test
 %doc README
 %{perl_vendorlib}/Math
 %{_mandir}/*/*
+
 
