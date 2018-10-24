@@ -1,4 +1,5 @@
 removed_sources:
   Math-BigRat-0.2602.tar.gz: ac64da70e8998ca728781d13082cbb6fc72768b8
-sources:
   Math-BigRat-0.2606.tar.gz: 7bf8a61d8c76da13f574c2ad22361e6491b5f5cd
+sources:
+  Math-BigRat-0.260804.tar.gz: f6e09373ef5852a006006f6c89230d795ed43645
