@@ -18,6 +18,7 @@ Source0:	http://www.cpan.org/modules/by-module/Math/%{upstream_name}-%{upstream_
 # automatic dependency doesn't work here, because perl package
 # provides an unversioned one
 BuildRequires:	perl-Math-BigInt >= 1.87
+BuildRequires:	perl(Module::Install)
 BuildRequires:	perl-devel
 
 %description
