@@ -19,6 +19,7 @@ Source0:	http://www.cpan.org/modules/by-module/Math/%{upstream_name}-%{upstream_
 # provides an unversioned one
 BuildRequires:	perl-Math-BigInt >= 1.87
 BuildRequires:	perl(Module::Install)
+BuildRequires:	perl(Test::More)
 BuildRequires:	perl-devel
 
 %description
