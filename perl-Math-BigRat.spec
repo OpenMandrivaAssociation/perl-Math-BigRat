@@ -1,7 +1,7 @@
 %define debug_package %{nil}
 
 %define upstream_name    Math-BigRat
-%define upstream_version 0.260804
+%define upstream_version 0.2614
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -32,7 +32,7 @@ for arbitrary big rational numbers.
 %build
 export PERL5LIB=%{perl_vendorlib}
 perl Makefile.PL INSTALLDIRS=vendor
-%make
+%make_build
 
 %check
 export PERL5LIB=%{perl_vendorlib}/
